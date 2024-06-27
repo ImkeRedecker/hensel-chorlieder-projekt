@@ -1,7 +1,7 @@
 <template>
     About
-    Hier kommt die beschreibung des Projekts zum Beispiel
-    <UButton>Test button</UButton>
+    Hier kommt die beschreibung des Projekts
+    <UButton>Hello</UButton>
     <UCard>
       <template #header>
         <Placeholder class="h-8" />

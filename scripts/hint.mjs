@@ -13,10 +13,15 @@ const filesPath = `${__dirname}/../hensel-chorales/kern`;
 
 const files = getFiles(filesPath);
 
+const dataPath = `${__dirname}/../data/`;
+
+execSync(`rm -rf ${dataPath}`);
+
+
 files.forEach(file => {
     const id = getIdFromFilePath(file);
     console.log(id);
-
-    const output = execSync(`cat ${file} | extractxx -i **kern | beat -ca | fb -ctaml --hint | extractxx -s 2,6 | ridxx -LGTMI`).toString().trim();
-    console.log(output);
+    const songDirPath = `${dataPath}${id}`;
+    execSync(`mkdir -p ${songDirPath}`);
+    const output = execSync(`cat ${file} | extractxx -i **kern | beat -ca | fb -ctamlo --hint | extractxx -s 2,6 | ridxx -LGTMI | sed '/^\\./d' > ${songDirPath}/hint.txt`).toString().trim();
 });

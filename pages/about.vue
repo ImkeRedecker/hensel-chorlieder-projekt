@@ -4,13 +4,13 @@
     <UButton>Hello</UButton>
     <UCard>
       <template #header>
-        <Placeholder class="h-8" />
+        header
       </template>
   
-      <Placeholder class="h-32" />
+      content
   
       <template #footer>
-        <Placeholder class="h-8" />
+        footer
       </template>
     </UCard>
   </template>

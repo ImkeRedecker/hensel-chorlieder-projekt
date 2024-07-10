@@ -1,3 +1,3 @@
 <template>
-    Choräle
+    ResetButton
 </template>

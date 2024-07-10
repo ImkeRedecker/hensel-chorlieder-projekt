@@ -1,12 +1,9 @@
 <template>
+    <div class="bg-slate-200">
+        <Navigation />
+    </div>
     <UContainer>
-        <nav>
-            <nuxtLink to="/">Startseite</nuxtLink>
-            <nuxtLink to="/about">About</nuxtLink>
-            <nuxtLink to="/songs">Choräle</nuxtLink>
-            <nuxtLink to="/songs">Fanny</nuxtLink>
-        </nav>
-        <main>
+        <main class="my-8">
             <slot></slot>
         </main>
     </UContainer>

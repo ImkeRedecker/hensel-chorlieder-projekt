@@ -4,13 +4,18 @@
     <UButton>Hello</UButton>
     <UCard>
       <template #header>
-        <Placeholder class="h-8" />
+        header
+        <UPlaceholder class="h-8" />
       </template>
   
-      <Placeholder class="h-32" />
-  
+      <UPlaceholder class="h-32" />
+      content
+      <UResetButton />
+
+
       <template #footer>
-        <Placeholder class="h-8" />
+        <UPlaceholder class="h-8" />
+        footer
       </template>
     </UCard>
   </template>

@@ -1,0 +1,3 @@
+[submodule "hensel-chorales"]
+	path = hensel-chorales
+	url = https://github.com/ImkeRedecker/hensel-chorales.git

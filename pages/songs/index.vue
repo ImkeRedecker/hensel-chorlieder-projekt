@@ -1,6 +1,6 @@
 <template>
     Choräle
-    <UButton to="/songs/hensel-morgengruss">Morgengruß</UButton>
+    <UButton to="/songs/hensel-morgengruss">Morgengruß</UButton> 
     <UButton to="/songs/hensel-ariel">Ariel</UButton>
     <UButton to="/songs/hensel-komm">Komm</UButton>
     <UButton to="/songs/hensel-im-herbste">Im Herbste</UButton>

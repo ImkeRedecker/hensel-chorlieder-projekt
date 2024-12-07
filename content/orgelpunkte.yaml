@@ -14,3 +14,9 @@ hensel-im-wald:
 
   hensel-lockung:
   - [90, 101.5]
+
+  hensel-im-herbste:
+  - [24, 34.5]
+  - [42, 57]
+  - [109.5, 115.5]
+  - [163.5, 186]

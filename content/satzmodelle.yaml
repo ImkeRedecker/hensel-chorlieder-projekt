@@ -1,2 +1,5 @@
 hensel-abendlich-schon:
     - [0, 16, [gymel, quintfall]]
+
+    hensel-morgenwanderung:
+    - [84, 94, [fauxbourdon]]

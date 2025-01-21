@@ -4,6 +4,14 @@ import {fileURLToPath} from 'node:url';
 export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ["@nuxt/ui"],
+  vite: {
+    worker: {
+        format: 'es',
+    },
+    optimizeDeps: {
+        exclude: ['verovio'],
+    },
+  },
   nitro: {
     publicAssets: [
       {

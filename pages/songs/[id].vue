@@ -1,7 +1,7 @@
 <script setup>
 const route = useRoute();
 const id = route.params.id;
-const kernFile = `/kern/hensel-chorales/${id}.krn`;
+const kernFile = `/kern/hensel-chorlieder/${id}.krn`;
 </script>
 
 <template>

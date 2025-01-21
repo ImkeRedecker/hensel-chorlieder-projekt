@@ -7,10 +7,10 @@ export default defineNuxtConfig({
   nitro: {
     publicAssets: [
       {
-        baseURL: 'kern/hensel-chorales',
-        dir: fileURLToPath (new URL('./hensel-chorales/kern', import.meta.url)),
+        baseURL: 'kern/hensel-chorlieder',
+        dir: fileURLToPath (new URL('./hensel-chorlieder/kern', import.meta.url)),
         maxAge: 3600,
       },
     ],
   },
-})
+});

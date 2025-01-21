@@ -34,7 +34,7 @@ jobs:
                 run: npm ci
             -
                 name: Static HTML export with Nuxt
-                run: NUXT_APP_BASE_URL=/hensel-chorlieder-projekt/ npm run generate --preset github_pages
+                run: NUXT_APP_BASE_URL=/hensel-chorlieder-projekt/ npm run generate
             -
                 name: Upload artifact
                 uses: actions/upload-pages-artifact@v3

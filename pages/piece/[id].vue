@@ -17,7 +17,9 @@ const score = ref();
 const filters = usePieceFilterStore();
 
 onMounted(async () => {
-    const response = await fetch(piece.value.localRawFile);
+    const config = useRuntimeConfig();
+    const kernFile = `${config.app.baseURL}kern/hensel-chorlieder/${id}.krn`;
+    const response = await fetch(kernFile);
     const kern = await response.text();
     score.value = kern;
 });

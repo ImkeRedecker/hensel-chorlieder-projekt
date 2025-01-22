@@ -17,6 +17,10 @@ const links = [
         to: '/piece',
     },
     {
+        label: 'Akkorde',
+        to: '/chords',
+    },
+    {
         label: 'Fanny',
         //icon: 'i-heroicons-command-line',
         to: '/fanny'

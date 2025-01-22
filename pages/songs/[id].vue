@@ -1,7 +1,8 @@
 <script setup>
 const route = useRoute();
 const id = route.params.id;
-const kernFile = `/kern/hensel-chorales/${id}.krn`;
+const config = useRuntimeConfig();
+const kernFile = `${config.app.baseURL}kern/hensel-chorlieder/${id}.krn`;
 </script>
 
 <template>

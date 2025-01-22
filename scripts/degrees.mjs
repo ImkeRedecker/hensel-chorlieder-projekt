@@ -9,7 +9,7 @@ function getIdFromFilePath(path) {
     return path.split(/[\\\/]/).pop().split('.')[0];
 }
 
-const filesPath = `${__dirname}/../hensel-chorales/kern`;
+const filesPath = `${__dirname}/../hensel-chorlieder/kern`;
 
 const files = getFiles(filesPath);
 

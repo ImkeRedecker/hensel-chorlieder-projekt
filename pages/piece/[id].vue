@@ -1,8 +1,6 @@
 <script setup>
 const { params: { id } } = useRoute();
 const { data: piece } = await useAsyncData(`pieces/${id}`, () => queryContent(`/pieces/${id}`).findOne());
-const { data: modulationsData } = await useAsyncData(`modulations`, () => queryContent(`/modulations`).findOne());
-const { data: sequencesData } = await useAsyncData(`sequences-data`, () => queryContent(`/sequences-data`).findOne());
 
 if (!piece.value) {
     throw createError({

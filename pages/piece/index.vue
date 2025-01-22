@@ -1,8 +1,6 @@
 <script setup>
 const { data } = await useAsyncData('pieces', () => queryContent('/pieces').find())
 
-console.log(data.value)
-
 const pieces = data.value?.map(item => {
     return {
         id: item.id,

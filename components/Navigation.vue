@@ -11,10 +11,14 @@ const links = [
         to: '/about'
     },
     {
-        label: 'Choräle',
+        label: 'Chorlieder',
         // icon: 'i-heroicons-chart-bar',
         // badge: 17,
-        to: '/songs',
+        to: '/piece',
+    },
+    {
+        label: 'Akkorde',
+        to: '/chords',
     },
     {
         label: 'Fanny',
